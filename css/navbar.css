@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background: black;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 51px;
+}
+.logo img{
+	width: 90px;
+}
+.menu a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}

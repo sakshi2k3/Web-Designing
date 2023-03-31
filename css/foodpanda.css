@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	background: white;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 51px;
+/*		background-attachment: fixed;*/
+
+}
+.logo img{
+	width: 180px;
+	margin-left: 50px;
+}
+.menu a{
+	color: #d75ab6;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 0 12px;
+}
+.banner{
+	background: url(../image/foodp_image.jpg);
+	height: 380px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.banner h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: auto;
+	position: relative;
+	top: -252%;
+}
+.flag{
+	height: 60px;
+	width: 100%;
+	background: #59555575;
+	position: relative;
+	top: -135%;
+	margin-top: 403px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 51px;
+}
+.flag h1{
+	
+	color: white;
+	font-size: 12px;
+    font-family: "museo-sans", sans-serif;
+    margin-top: -16px;
+}
+.flag img{
+width: 47px;
+height: 32px;
+margin: 0,-10px;
+border-radius: 3px;
+}
+.about{
+	background: white;
+	width: 100%;
+	height: 900px;
+background-attachment: fixed;
+
+
+}
+.about h1{
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	color: #d70f64;
+	font-family: "museo-sans", sans-serif;
+	top: 35%;
+	margin-right: 21px;
+
+}
+.about p{
+	text-align: center;
+	font-family: "museo-sans", sans-serif;
+	width: 1200px;
+	font-size: 18px;
+	position: relative;
+	top: 40%;
+	padding: 1px 262px;
+	/*line-height: 1.6;
+	margin: 0 0 35px;*/
+/*	vertical-align: middle;*/
+}
+ .about button{
+	background:#d70f64;
+	color: white;
+	width: 193px;
+	height: 48px;
+    position: relative;
+    top: 44%;
+	margin: 0px 528px ;
+	border: solid white;
+	letter-spacing: 1px;
+
+}
+.Carrers{
+	background: url(../image/foodpanda-rider.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+
+}
+.Carrers h1{
+	color:#d70f64; ;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 27px;
+     font-family: "museo-sans", sans-serif ;
+	position: relative;
+     top: 32%;
+/*      margin:  -551px 0;*/
+}
+.Carrers p{
+	text-align: center;
+	font-family: "museo-sans", sans-serif;
+	position: relative;
+	top: 35%;
+	color: white;
+	font-size: 18px;
+	/*width: 1200px;
+
+
+	top: 80%;
+	padding: 1px 262px;
+	color: white;*/
+}
+.Carrers button{
+		background:#d70f64 ;
+	color: white;
+	width: 193px;
+	height: 48px;
+    position: relative;
+    top: 39%;
+	margin: 0px 528px ;
+	border: none;
+	letter-spacing: 1px;
+}
+.press{
+	background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+	height: 900px;
+}
+.press h1{
+	color:#d70f64 ;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 27px;
+     font-family: "museo-sans", sans-serif ;
+	position: relative;
+     top: 32%;
+}
+.press p{
+	text-align: center;
+	font-family: "museo-sans", sans-serif;
+	position: relative;
+	top: 35%;
+	color: white;
+	font-size: 18px;
+	margin: 0px 270px;
+}
+.press button{
+		background:#d70f64 ;
+	color: white;
+	width: 193px;
+	height: 48px;
+    position: relative;
+    top: 39%;
+	margin: 0px 528px ;
+	border: none;
+	letter-spacing: 1px;
+}
+.contact{
+	background: #d70f64 ;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+.contact h1{
+		color:white;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 30px;
+     font-family: "museo-sans", sans-serif ;
+	position: relative;
+     top: 32%;
+} 
+.contact p{
+		text-align: center;
+	font-family: "museo-sans", sans-serif;
+	position: relative;
+	top: 35%;
+	color: white;
+	font-size: 18px;
+	margin: 0px 270px;
+}
+.contact button{
+		background:white ;
+	color: #d70f64;
+	width: 193px;
+	height: 48px;
+    position: relative;
+    top: 39%;
+	margin: 0px 528px ;
+	border: none;
+	letter-spacing: 1px;
+}
+.footer{
+	background: white;
+	width: 100%;
+	height: 100px;
+}
+.footer img{
+	    width: 159px;
+    height: 53px;
+    margin: 10px 65px;
+}
+
+
+}
